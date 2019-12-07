@@ -5,4 +5,4 @@ dog.sayhi();
 var cat= new Cat ('mèo thúi');
 cat.sayhi();
 dog.eat(cat);
-console.log(cat.name);
+console.log(dog.stomach);
