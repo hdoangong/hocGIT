@@ -13,7 +13,12 @@ mouse.sayhi();
 
 dog.eat(cat);
 cat.eat(mouse);
-cat.eat(dog);
+try {
+    cat.eat(dog);    
+} catch (error) {
+    console.log('Err while cat eating a dog');
+}
+
 
 console.log(dog.stomach);
 console.log(cat.stomach);
